@@ -1,0 +1,2 @@
+set solib-search-path C:/Users/hacker/Desktop/GeometryShaders/Butterfly/Android/obj/local/armeabi
+directory C:/android-ndk-r12b/build//../platforms/android-24/arch-arm/usr/include C:/Users/hacker/Desktop/GeometryShaders/Butterfly/Android/jni/png C:/Users/hacker/Desktop/GeometryShaders/Butterfly/Android/jni/zlib ../.. ../../../External/Include ../../..//Common/Include C:/android-ndk-r12b/build//../sources/android/native_app_glue C:/android-ndk-r12b/build//../sources/cxx-stl/system
