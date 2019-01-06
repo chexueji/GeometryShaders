@@ -6,7 +6,7 @@ COMMON_SRC_PATH		:= $(COMMON_PATH)/Source
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE    := Butterfly
+LOCAL_MODULE    := Point2Line
 LOCAL_CFLAGS    += -DANDROID
 
 
@@ -15,7 +15,7 @@ LOCAL_SRC_FILES := $(COMMON_SRC_PATH)/esShader.c \
 				   $(COMMON_SRC_PATH)/esTransform.c \
 				   $(COMMON_SRC_PATH)/esUtil.c \
 				   $(COMMON_SRC_PATH)/Android/esUtil_Android.c \
-				   $(SRC_PATH)/Butterfly.c
+				   $(SRC_PATH)/Point2Line.c
 
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Tools/Image/png
@@ -23,7 +23,7 @@ LOCAL_C_INCLUDES += $(LOCAL_PATH)/../../../Tools/Image/zlib
 #source code
 LOCAL_C_INCLUDES += $(SRC_PATH) \
 					../../../External/Include \
-					../../..//Common/Include
+					../../../Common/Include
 
 LOCAL_LDLIBS    := -llog -landroid -lEGL -lGLESv3
 
