@@ -10,7 +10,7 @@
 
 //#define VERTEX_STRIDE (sizeof(GLfloat)*(VERTEX_POS_SIZE+VERTEX_TEXCOORD_SIZE))
 #define VERTEX_STRIDE 3
-//test
+//detached
 typedef struct
 {
 	GLuint programObject;
